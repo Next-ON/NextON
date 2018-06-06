@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NXTON
+Comment=NXTON P2P Cryptocurrency
+Comment[fr]=NXTON, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=NXTON, eşten eşe kriptografik sanal para birimi
+Exec=nxton-qt %u
+Terminal=false
+Type=Application
+Icon=nxton128
+MimeType=x-scheme-handler/nxton;
+Categories=Office;Finance;
