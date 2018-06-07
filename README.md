@@ -35,9 +35,9 @@ Building
 ---------------------
 The following are developer notes on how to build NXTON on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
-- [OSX Build Notes](build-osx.md)
-- [Unix Build Notes](build-unix.md)
-- [Gitian Building Guide](gitian-building.md)
+- [OSX Build Notes](doc/build-osx.md)
+- [Unix Build Notes](doc/build-unix.md)
+- [Gitian Building Guide](doc/gitian-building.md)
 
 Development
 ---------------------
