@@ -635,7 +635,7 @@
     </message>
     <message>
         <source>Show information about NextON Core</source>
-        <translation>NXTON Core에 대한 정보 표시</translation>
+        <translation>NextON Core에 대한 정보 표시</translation>
     </message>
     <message>
         <source>Modify configuration options for NXTON</source>
@@ -1244,15 +1244,15 @@ Address: %4
     </message>
     <message>
         <source>Welcome to NextON Core.</source>
-        <translation>NXTON Core에 오신 것을 환영합니다.</translation>
+        <translation>NextON Core에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where NextON Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 NXTON Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <translation>이 프로그램이 처음 실행되었으므로 NextON Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
         <source>NextON Core will download and store a copy of the NXTON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>NXTON Core는 NXTON 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <translation>NextON Core는 NXTON 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -3475,7 +3475,7 @@ Please be patient...</source>
     <name>ShutdownWindow</name>
     <message>
         <source>NextON Core is shutting down...</source>
-        <translation>NXTON Core가 종료됩니다...</translation>
+        <translation>NextON Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4335,7 +4335,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. NextON Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. NXTON Core는 이미 실행 중입니다.</translation>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. NextON Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4519,7 +4519,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Unable to bind to %s on this computer. NextON Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. NXTON Core는 이미 실행 중입니다.</translation>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. NextON Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4895,7 +4895,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Initialization sanity check failed. NextON Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. NXTON Core가 종료됩니다.</translation>
+        <translation>초기화 정확성 검사에 실패 했습니다. NextON Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

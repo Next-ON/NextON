@@ -1,5 +1,5 @@
 ---
-name: "nxton-osx-1.2"
+name: "nxton-osx-1.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/eastcoastcrypto/NXTON"
+- "url": "https://bitbucket.org/BGC-Devs/nexton-2"
   "dir": "nxton"
 files:
 - "MacOSX10.11.sdk.tar.gz"

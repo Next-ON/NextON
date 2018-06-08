@@ -1,5 +1,5 @@
 ---
-name: "nxton-win-1.2"
+name: "nxton-win-1.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/eastcoastcrypto/NXTON"
+- "url": "https://bitbucket.org/BGC-Devs/nexton-2"
   "dir": "nxton"
 files: []
 script: |

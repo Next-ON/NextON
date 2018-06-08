@@ -44,7 +44,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git@github.com:Next-ON/NextON.git
+        git clone https://bitbucket.org/BGC-Devs/nexton-2.git
         cd NXTON
 
 2.  Build nxtond:

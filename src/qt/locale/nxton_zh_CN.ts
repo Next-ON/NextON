@@ -631,7 +631,7 @@
     </message>
     <message>
         <source>&amp;About NextON Core</source>
-        <translation>&amp;A关于NXTON Core</translation>
+        <translation>&amp;A关于NextON Core</translation>
     </message>
     <message>
         <source>Show information about NextON Core</source>
@@ -691,7 +691,7 @@
     </message>
     <message>
         <source>Show the NextON Core help message to get a list with possible NXTON command-line options</source>
-        <translation>显示NXTON Core帮助信息并获取NXTON命令行选项列表</translation>
+        <translation>显示NextON Core帮助信息并获取NXTON命令行选项列表</translation>
     </message>
     <message>
         <source>NextON Core client</source>
@@ -870,7 +870,7 @@ Address: %4
     </message>
     <message>
         <source>About NextON Core</source>
-        <translation>关于NXTON Core</translation>
+        <translation>关于NextON Core</translation>
     </message>
     </context>
 <context>
@@ -881,11 +881,11 @@ Address: %4
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where NextON Core will store its data.</source>
-        <translation>由于这是该程序第一次启动，您可以选择存储NXTON Core 数据的位置。</translation>
+        <translation>由于这是该程序第一次启动，您可以选择存储NextON Core 数据的位置。</translation>
     </message>
     <message>
         <source>NextON Core will download and store a copy of the NXTON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>NXTON Core将下载并存储NXTON区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+        <translation>NextON Core将下载并存储NXTON区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
         <source>NextON Core</source>
@@ -1598,7 +1598,7 @@ Address: %4
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NextON Core will not work properly.</source>
-        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，NXTON Core将无法正常工作。</translation>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，NextON Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>

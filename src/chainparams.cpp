@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The NXTON developers
+// Copyright (c) 2017 The NXTON developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,10 +53,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x000006b9f912d8f47d4d0353d83754317d2be800bc34248e699b828c33c353d6"));
+    boost::assign::map_list_of(0, uint256("0x000006b9f912d8f47d4d0353d88458537d2be800bc34248e699b828c33c353d6"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1527643271, // * UNIX timestamp of last checkpoint block
+    1527628271, // * UNIX timestamp of last checkpoint block
     1,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2        // * estimated number of transactions per day after checkpoint
@@ -103,7 +103,7 @@ public:
         pchMessageStart[1] = 0xa4;
         pchMessageStart[2] = 0xbd;
         pchMessageStart[3] = 0xa9;
-        vAlertPubKey = ParseHex("040b4f69a65a7f4862c105237ae9de972cd0f868402b3f58dfcbd53d324532d4c7623c828af50f87a01b0a0ca61d48fd3f578b131");
+        vAlertPubKey = ParseHex("040b4f69a65a7f4862c105237ae9de972cd0f868402b3f58d5932c1f105637f3447142e0a2fcbd53d324532d4c7623c828af50f87a01b0a0ca61d48fd3f578b131");
         nDefaultPort = 32698;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // NXTON starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 999999;
@@ -119,7 +119,7 @@ public:
         nMaxMoneyOut = 1000000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 150;
+        nLastPOWBlock = 150; 
         nModifierUpdateBlock = 9999999;
         nZerocoinStartHeight = 151;
         nAccumulatorStartHeight = 1;
@@ -128,7 +128,7 @@ public:
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = ~1; //Last valid accumulator checkpoint
-
+        
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
          * be spent as it did not originally exist in the database.
@@ -139,24 +139,31 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "NextON Start Todays at 05:20pm";
+        const char* pszTimestamp = "NextOn developed like a solution and answer for all problems of e-commerce that we face every day";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04d87588cad43cfe42dc15816f2e42550f3e16abf4a1ad9cf6d539e146dc0ade0737e00c5e1cb0a69209816050d19d0a0b2ab68a50359275e8") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04d87588cad43cfe42dc15816f2e42550f3e16abf4b6fba6fb154f4a7ba1ad9cf6d539e146dc0ade0737e00c5e1cb0a69209816050d19d0a0b2ab68a50359275e8") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1527643271;
+        genesis.nTime = 1527628271;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 20541351;
-
-		    hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000006b9f912d8f47d4d0353d83754317d2be800bc34248e699b828c33c353d6"));
-        assert(genesis.hashMerkleRoot == uint256("f6d95e6ae6ca0d602bdede4a9281awwda7a519f3ea8c3ee89b896b06e0d19f42"));
+        genesis.nNonce = 20544351;
+		
+		hashGenesisBlock = genesis.GetHash();
+        assert(hashGenesisBlock == uint256("0x000006b9f912d8f47d4d0353d88458537d2be800bc34248e699b828c33c353d6"));
+        assert(genesis.hashMerkleRoot == uint256("f6d95e6ae6ca0d602bdede4a7746d29da7a519f3ea8c3ee89b896b06e0d19f42"));
+		
+        vSeeds.push_back(CDNSSeedData("109.234.38.134", "109.234.38.134"));   // Single node address
+		vSeeds.push_back(CDNSSeedData("109.234.39.121", "109.234.39.121"));   // Single node address
+		vSeeds.push_back(CDNSSeedData("94.103.80.228", "94.103.80.228"));   // Single node address
+		vSeeds.push_back(CDNSSeedData("109.234.36.77", "109.234.36.77"));   // Single node address
+		vSeeds.push_back(CDNSSeedData("94.103.81.205", "94.103.81.205"));   // Single node address
+		vSeeds.push_back(CDNSSeedData("94.103.81.203", "94.103.81.203"));   // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
@@ -239,7 +246,7 @@ public:
         nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 9891737; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 9891730; //Last valid accumulator checkpoint
-
+        
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1515616140;
         genesis.nNonce = 79855;
@@ -249,7 +256,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-
+        
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 112); // Testnet nxton addresses start with 'x' or 'y'

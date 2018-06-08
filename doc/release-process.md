@@ -26,7 +26,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/eastcoastcrypto/gitian.sigs.git
     git clone https://github.com/eastcoastcrypto/nxton-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git@github.com:Next-ON/NextON.git
+    git clone https://github.com/eastcoastcrypto/nxton.git
 
 ### NXTON maintainers/release engineers, suggestion for writing release notes
 
@@ -265,6 +265,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/eastcoastcrypto/NXTON/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://bitbucket.org/BGC-Devs/nexton-2/releases/new) with a link to the archived release notes.
 
   - Celebrate

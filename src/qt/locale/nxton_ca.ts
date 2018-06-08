@@ -459,7 +459,7 @@
     </message>
     <message>
         <source>NextON Core client</source>
-        <translation>Client NextON Core</translation>
+        <translation>Client NXTON core</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NXTON network</source>

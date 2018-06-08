@@ -614,7 +614,7 @@
     </message>
     <message>
         <source>NextON Core</source>
-        <translation>NextON Core</translation>
+        <translation>NXTON CORE</translation>
     </message>
     <message>
         <source>Send coins to a NXTON address</source>
@@ -1122,7 +1122,7 @@ Adres: %4</translation>
     </message>
     <message>
         <source>NextON Core</source>
-        <translation>NextON Core</translation>
+        <translation>NXTON CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1153,7 +1153,7 @@ Adres: %4</translation>
     </message>
     <message>
         <source>NextON Core</source>
-        <translation>NextON Core</translation>
+        <translation>NXTON CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1588,7 +1588,7 @@ Adres: %4</translation>
     <name>SplashScreen</name>
     <message>
         <source>NextON Core</source>
-        <translation>NextON Core</translation>
+        <translation>NXTON CORE</translation>
     </message>
     </context>
 <context>

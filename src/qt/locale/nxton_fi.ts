@@ -2073,7 +2073,7 @@ Please check the address and try again.</source>
     <name>ShutdownWindow</name>
     <message>
         <source>NextON Core is shutting down...</source>
-        <translation>NextON Core sammuu...</translation>
+        <translation>NXTON core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2231,7 +2231,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>The NextON Core developers</source>
-        <translation>NextON Core kehittäjät</translation>
+        <translation>NXTON core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2592,7 +2592,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of NextON Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version NXTON Coresta</translation>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version NextON Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
