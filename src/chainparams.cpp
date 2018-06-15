@@ -112,8 +112,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 150; // NXTON: Retargeting
-        nTargetSpacing = 150;  // NXTON: 1 minute
+        nTargetTimespan = 1 * 150; //Update Block Time
+        nTargetSpacing = 1 * 150; //Update Block Time
         nMaturity = 80;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 1000000000 * COIN;
